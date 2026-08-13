@@ -58,7 +58,7 @@ def change_numbers(callback, *args): # 가변인수
 		numbers[i] = callback(numbers[i])
 		# numbers 인덱싱으로 값을 하나씩 꺼내서 square의 인수로 들어간다
 		
-	return numbers # 연산 된 값 100, 400, 900이 numbers에 반환된
+	return numbers # 연산 된 값 100, 400, 900이 numbers에 반환된다
 	
 def square(num):
 	return num ** 2
